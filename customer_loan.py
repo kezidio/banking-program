@@ -29,7 +29,7 @@ if(amount_to_borrow <= 0):
         print("You must enter a positive number!") # display message when number is not positive
         amount_to_borrow = float(input("How much do you want to borrow? $"))
 
- # aks user for annual interest rate
+ # ask user for annual interest rate
 annual_interest = float(input("What is the annual interest rate expressed as a percent? "))
 
 # check if rate is not positive
