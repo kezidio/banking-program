@@ -38,7 +38,7 @@ if(annual_interest <= 0): # create a loop to ask for number again until user ent
         print("You must enter a positive number!")
         annual_interest = float(input("What is the annual interest rate expressed as a percent? "))
 
- # aks user monthly payment amount
+ # ask user monthly payment amount
 monthly_payment = float(input("What is the monthly payment amount? $"))
 if(monthly_payment <= 0): # check if number is not positive
     while(monthly_payment <= 0): # create a loop to ask for number again until user enters a positive number
