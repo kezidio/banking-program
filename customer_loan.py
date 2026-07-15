@@ -29,14 +29,14 @@ if(amount_to_borrow <= 0):
         print("You must enter a positive number!") # display message when number is not positive
         amount_to_borrow = float(input("How much do you want to borrow? $"))
 
- # aks user for anual interest rate
-anual_interest = float(input("What is the annual interest rate expressed as a percent? "))
+ # aks user for annual interest rate
+annual_interest = float(input("What is the annual interest rate expressed as a percent? "))
 
 # check if rate is not positive
-if(anual_interest <= 0): # create a loop to ask for number again until user enters a positive number
-    while(anual_interest <= 0): # display message when number is not positive
+if(annual_interest <= 0): # create a loop to ask for number again until user enters a positive number
+    while(annual_interest <= 0): # display message when number is not positive
         print("You must enter a positive number!")
-        anual_interest = float(input("What is the annual interest rate expressed as a percent? "))
+        annual_interest = float(input("What is the annual interest rate expressed as a percent? "))
 
  # aks user monthly payment amount
 monthly_payment = float(input("What is the monthly payment amount? $"))
@@ -46,7 +46,7 @@ if(monthly_payment <= 0): # check if number is not positive
         monthly_payment = float(input("What is the monthly payment amount? $"))
 
 # calculate interest rate per month
-monthly_interest = (anual_interest / 12) * 0.01
+monthly_interest = (annual_interest / 12) * 0.01
 # calculate first interest amount which is amount to be borrowed multiplied by monthly interest
 interest = amount_to_borrow * monthly_interest
 # calculate minimum payment
