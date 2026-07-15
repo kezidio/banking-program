@@ -1,7 +1,7 @@
 
 '''
 
-Program: Cunstomer Loan Program
+Program: Consumer Loan Program
 
 Programmer: Kaweny Ezidio
 
